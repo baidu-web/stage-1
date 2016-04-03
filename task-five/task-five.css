@@ -1,0 +1,182 @@
+html,body {
+	padding: 0;
+	margin:0;
+}
+body {
+	padding:4px;
+	background:#DEDEDE;
+}
+p {
+	margin:4px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+#header {
+	width:100%;
+	height:60px;
+	background-color: #333333;
+	position:fixed;
+	top:0;
+	z-index: 99;
+}
+#header .list {
+	width:520px;
+	list-style: none;
+	position:absolute;
+	right:30px;
+	top:-16px;
+	text-align: center;
+	height:60px;
+	line-height:60px; 
+}
+#header .list li {
+	width:100px;
+	height:60px;
+	float:left;
+}
+#header #now {
+	background-color: black;
+}
+#wrap {
+	margin:20px 500px 0 0;
+}
+#section-one {
+	height:750px;
+	position: relative;
+	top:60px;
+	background-color: white;
+	margin:0 auto;
+	padding:20px 15px;
+	box-shadow:1px 1px 3px #292929;
+}
+
+#section-two {
+	height:550px;
+	position: relative;
+	top:100px;
+	background-color: white;
+	margin:0 auto;
+	padding:20px 15px;
+	box-shadow:1px 1px 3px #292929;
+}
+#section-two img {
+	width:35%;
+	height: 33%;
+}
+#section-three {
+	height:750px;
+	position: relative;
+	top:120px;
+	background-color: white;
+	margin:0 auto;
+	padding:20px 15px;
+	box-shadow:1px 1px 3px #292929;
+}
+#section-three div {
+	width:25%;
+	height:24%;
+	float:left;
+	border:1px solid gray;
+	text-align: center;
+	padding:5px;
+	margin:10px;
+}
+#section-three img {
+	width:150px;
+	height:120px;
+}
+#section-four {
+	height:350px;
+	position: relative;
+	top:140px;
+	background-color: white;
+	margin:0 auto;
+	padding:20px 15px;
+	box-shadow:1px 1px 3px #292929;
+	font-size: 14px;
+}
+#section-four table, td, th {
+	border:1px solid #DEDEDE;
+}
+#section-four th {
+	text-align: left;
+	background-color: #333333;
+	color:white; 
+}
+#section-four td, th {
+	width:400px;
+}
+#section-four .footer {
+	background-color: #DEDEDE;
+}
+#section-five {
+	width:400px;
+	height:500px;
+	position:absolute;
+	top:100px;
+	right: 20px;
+	background-color: white;
+	padding:20px 15px;
+	box-shadow:1px 1px 3px #292929;
+	font-size: 14px;
+	
+}
+#section-five textarea {
+	vertical-align: top;
+}
+#section-five .box {
+	width:340px;
+	text-align: left;
+	margin:0 auto;
+	line-height: 30px;
+}
+#section-five .button {
+	width:350px;
+	height: 50px;
+	position: absolute;
+	bottom:20px;
+	left:50px;
+	background-color: blue;
+	border-radius: 15px;
+}
+#footer {
+	width:100%;
+	height:60px;
+	background-color: #333333;
+	position:absolute;
+	bottom:-3500px;
+	z-index: 99;
+	text-align: center;
+	line-height: 60px;
+	color:white;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
